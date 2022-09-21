@@ -1,0 +1,34 @@
+// Colors
+
+$primary-accent-color: #013b75;
+$secondary-accent-color: #ECB127;
+$main-background: rgb(242,242,242);
+
+
+// Responsive widths
+
+$large-screen: 1536px;
+$medium-screen: 1024px;
+$small-screen: 768px;
+$xSmall-screen: 580px;
+
+// flex-center
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes popUp {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+
+    }
+}
